@@ -1,0 +1,4 @@
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json
+C:\Users\vasya\Desktop\blazor\InternshipBlazorApp\InternshipBlazorApp\InternshipBlazorApp.Client\wwwroot\appsettings.Development.json
+C:\Users\vasya\Desktop\blazor\InternshipBlazorApp\InternshipBlazorApp\InternshipBlazorApp.Client\wwwroot\appsettings.json

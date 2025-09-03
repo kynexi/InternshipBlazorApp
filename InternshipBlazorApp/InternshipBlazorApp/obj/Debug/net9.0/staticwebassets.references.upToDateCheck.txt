@@ -1,0 +1,3 @@
+C:\Users\vasya\Desktop\blazor\InternshipBlazorApp\InternshipBlazorApp\InternshipBlazorApp.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\vasya\Desktop\blazor\InternshipBlazorApp\InternshipBlazorApp\InternshipBlazorApp.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\vasya\Desktop\blazor\InternshipBlazorApp\InternshipBlazorApp\InternshipBlazorApp.Client\obj\Debug\net9.0\staticwebassets.build.json
