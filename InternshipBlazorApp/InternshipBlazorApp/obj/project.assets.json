@@ -2055,6 +2055,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "InternshipBlazorApp.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "9.0.7",
           "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "9.0.7"
         },
@@ -2063,6 +2064,16 @@
         },
         "runtime": {
           "bin/placeholder/InternshipBlazorApp.Client.dll": {}
+        }
+      },
+      "InternshipBlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/InternshipBlazorApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InternshipBlazorApp.Shared.dll": {}
         }
       }
     }
@@ -5777,6 +5788,11 @@
       "type": "project",
       "path": "../InternshipBlazorApp.Client/InternshipBlazorApp.Client.csproj",
       "msbuildProject": "../InternshipBlazorApp.Client/InternshipBlazorApp.Client.csproj"
+    },
+    "InternshipBlazorApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../InternshipBlazorApp.Shared/InternshipBlazorApp.Shared.csproj",
+      "msbuildProject": "../InternshipBlazorApp.Shared/InternshipBlazorApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

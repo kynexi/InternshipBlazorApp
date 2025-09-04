@@ -466,6 +466,16 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
+      },
+      "InternshipBlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/InternshipBlazorApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InternshipBlazorApp.Shared.dll": {}
+        }
       }
     },
     "net9.0/browser-wasm": {
@@ -932,6 +942,16 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "InternshipBlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/InternshipBlazorApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InternshipBlazorApp.Shared.dll": {}
         }
       }
     }
@@ -1682,10 +1702,16 @@
         "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
+    },
+    "InternshipBlazorApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../InternshipBlazorApp.Shared/InternshipBlazorApp.Shared.csproj",
+      "msbuildProject": "../InternshipBlazorApp.Shared/InternshipBlazorApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "InternshipBlazorApp.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.7",
       "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 9.0.7",
       "Microsoft.NET.ILLink.Tasks >= 9.0.7",
@@ -1723,7 +1749,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vasya\\Desktop\\blazor\\InternshipBlazorApp\\InternshipBlazorApp\\InternshipBlazorApp.Shared\\InternshipBlazorApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\vasya\\Desktop\\blazor\\InternshipBlazorApp\\InternshipBlazorApp\\InternshipBlazorApp.Shared\\InternshipBlazorApp.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
