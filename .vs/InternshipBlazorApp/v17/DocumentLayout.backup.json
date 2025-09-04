@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "InternshipBlazorApp\\InternshipBlazorApp\\Dockerfile",
               "ToolTip": "C:\\Users\\vasya\\Desktop\\blazor\\InternshipBlazorApp\\InternshipBlazorApp\\InternshipBlazorApp\\Dockerfile",
               "RelativeToolTip": "InternshipBlazorApp\\InternshipBlazorApp\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-09-03T19:12:48.853Z",
               "EditorCaption": ""
